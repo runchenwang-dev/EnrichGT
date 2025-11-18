@@ -2,10 +2,22 @@
 
 # EnrichGT 
 
-**EnrichGT \<-** Fast, light weight enrichment analysis + insightful re-clustering results make all results explainable + Pretty HTML tables, Just in **ONE** package, designed for researchers in wet-labs. Supported databases including GO, KEGG, Reactome, MsigDB + AI based (LLM) result annotations and more ... 
+> [!WARNING]
+> This R package is experimental and exploratory. For more rigorous analysis, please use [clusterProfiler](https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html) or [Metascape](https://metascape.org/).
 
 
-Please see the package website for more info: <https://zhimingye.github.io/EnrichGT/>
+Please see the package website for more info: <https://zhimingye.github.io/EnrichGT/>. 
+
+
+- Efficient functions for rapid enrichment analysis
+
+- Re-clustering of enriched results provides clear and actionable insights
+
+- User-friendly HTML output that is easy to read and interpret
+
+- LLM based result annotations
+
+- Do a series of things just in ONE package
 
 
 
