@@ -8,6 +8,7 @@
 
 Please see the package website for more information / guides: <https://zhimingye.github.io/EnrichGT/>. 
 
+We now use https://github.com/ZhimingYe/EnrichGT to develop this package. 
 
 ### Install
 
@@ -15,6 +16,8 @@ Please see the package website for more information / guides: <https://zhimingye
 install.packages("pak")
 pak::pkg_install("ZhimingYe/EnrichGT")
 ```
+The `AnnotationDbi`, `fgsea`, `reactome.db` and `GO.db` were from BioConductor and might be slow to install. If you can't install, please re-check your web connections or update your R and BioConductor, or use [Posit Package Manager](https://packagemanager.posit.co/) to install when using old R.
+
 
 ### WorkFlows
 
