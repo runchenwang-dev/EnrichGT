@@ -8,6 +8,8 @@
 
 Please see the package website for more information / guides: <https://zhimingye.github.io/EnrichGT/>. 
 
+The source code of this package is avaliable at https://github.com/ZhimingYe/EnrichGT. 
+
 ### Install
 
 ``` r
