@@ -3,23 +3,32 @@
 # EnrichGT 
 
 > [!WARNING]
-> This R package is experimental and exploratory. For more rigorous analysis, please use [clusterProfiler](https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html) or [Metascape](https://metascape.org/).
+> This R package is experimental and exploratory (only proves this idea works). For more rigorous analysis, please use [clusterProfiler](https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html) or [Metascape](https://metascape.org/).
 
 
-Please see the package website for more information / guides: <https://zhimingye.github.io/EnrichGT/>. 
-
-The source code of this package is avaliable at https://github.com/ZhimingYe/EnrichGT. 
-
-### Install
+## Install
 
 ``` r
 install.packages("pak")
 pak::pkg_install("ZhimingYe/EnrichGT")
 ```
-The `AnnotationDbi`, `fgsea`, `reactome.db` and `GO.db` were from BioConductor and might be slow to install. If you can't install, please re-check your web connections or update your R and BioConductor, or use [Posit Package Manager](https://packagemanager.posit.co/) to install when using old R.
+
+Please see the package website for more info: <https://zhimingye.github.io/EnrichGT/>. 
 
 
-### WorkFlows
+## Acknowledgments
+
+This package is inspired by (but **not** depends on) famous `clusterProfiler`. Without `clusterProfiler`, the team won't try to write this package. 
+
+### If also using `clusterProfiler`
+
+**Please cite:**
+
+T Wu<sup>#</sup>, E Hu<sup>#</sup>, S Xu, M Chen, P Guo, Z Dai, T Feng, L Zhou, W Tang, L Zhan, X Fu, S Liu, X Bo<sup>*</sup>, **G Yu**<sup>*</sup>. clusterProfiler 4.0: A universal enrichment tool for interpreting omics data. ***The Innovation***. 2021, 2(3):100141. doi: [10.1016/j.xinn.2021.100141](https://doi.org/10.1016/j.xinn.2021.100141)
+
+
+
+## WorkFlows
 
 ``` mermaid
 
