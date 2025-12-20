@@ -27,6 +27,9 @@ This package is inspired by (but **not** depends on) famous `clusterProfiler`. W
 T Wu<sup>#</sup>, E Hu<sup>#</sup>, S Xu, M Chen, P Guo, Z Dai, T Feng, L Zhou, W Tang, L Zhan, X Fu, S Liu, X Bo<sup>*</sup>, **G Yu**<sup>*</sup>. clusterProfiler 4.0: A universal enrichment tool for interpreting omics data. ***The Innovation***. 2021, 2(3):100141. doi: [10.1016/j.xinn.2021.100141](https://doi.org/10.1016/j.xinn.2021.100141)
 
 
+## Source code
+
+Source code is hosted on https://github.com/ZhimingYe/EnrichGT. 
 
 ## WorkFlows
 
